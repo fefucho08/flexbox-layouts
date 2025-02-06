@@ -45,7 +45,8 @@ nav ul li a:active {
     color: rgb(92, 229, 0);
 }
 
-#current-page {
+#current-page,
+#current-city {
     color: aquamarine;
 }
 
@@ -105,6 +106,45 @@ main p {
 .mainServices img {
     border: 1px solid red;
     width: calc(50% - 10px);
+}
+
+/* CSS FOR MAIN AT GALLERY */
+
+.mainGallery {
+    display: flex;
+    gap: 10px;
+}
+
+.mainGallery aside {
+    background-color: #606060;
+    width: calc(10% - 10px);
+    padding: 20px 10px;
+}
+
+.mainGallery aside ul li a {
+    color: #fff;
+}
+
+.mainGallery aside ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainGallery .imageGallery {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #9e9e9e;
+    padding: 20px;
+}
+
+.mainGallery img {
+    width: calc(25% - 10px);
+    margin: 0;
 }
 
 /* ----------------------- */
